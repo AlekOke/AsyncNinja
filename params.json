@@ -1,6 +1,6 @@
 {
   "name": "AsyncNinja",
   "tagline": "AsyncNinja:  Simple and Safe Concurrency for Swift",
-  "body": "#\tAsyncNinja:  Simple and Safe Concurrency for Swift\r\n\r\nToolset for typesafe, threadsafe, memory leaks safe concurrency in Swift 3.",
+  "body": "### Provides typesafe, threadsafe, memory leaks safe concurrency primitives for Swift 3.\r\n\r\nIncludes Primitives:\r\n* `Future` (also known as promise or defer) is a proxy of value that will be available at some point in the future\r\n* `Channel` (also known as stream or observable) is a proxy of values that become available periodically\r\n* `FiniteChannel` is a combination of `Future` and `Channel`\r\n* `Executor` is object made to encapsulate a way of async execution\r\n* `ExecutionContext` is a protocol concurrency-aware objects must conform to. It basically make them actors or components of actor\r\n* `Fallible` is validation monad. Is an object that represents either success value of failure value (Error).\r\n\r\nSupports: iOS, macOS, watchOS, tvOS. Linux support is in near future.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
