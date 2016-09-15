@@ -1,0 +1,6 @@
+{
+  "name": "AsyncNinja",
+  "tagline": "AsyncNinja:  Simple and Safe Concurrency for Swift",
+  "body": "#\tAsyncNinja:  Simple and Safe Concurrency for Swift\r\n\r\nToolset for typesafe, threadsafe, memory leaks safe concurrency in Swift 3.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
