@@ -25,19 +25,12 @@
 <p>Includes Primitives:</p>
 
 <ul>
-<li>
-<code>Future</code> (also known as promise or defer) is a proxy of value that will be available at some point in the future</li>
-<li>
-<code>Channel</code> (also known as stream or observable) is a proxy of values that become available periodically</li>
-<li>
-<code>FiniteChannel</code> is a combination of <code>Future</code> and <code>Channel</code>
-</li>
-<li>
-<code>Executor</code> is object made to encapsulate a way of async execution</li>
-<li>
-<code>ExecutionContext</code> is a protocol concurrency-aware objects must conform to. It basically make them actors or components of actor</li>
-<li>
-<code>Fallible</code> is validation monad. Is an object that represents either success value of failure value (Error).</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/Future.md"><code>Future</code></a> is a proxy of value that will be available at some point in the future. See example for advances of using futures.</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/InfiniteChannel.md"><code>InfiniteChannel</code></a> (renamed from Stream because of some odd naming conflict with standard library) is the same as future but the value will appear multiple times.</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/Channel.md"><code>Channel</code></a> is a combination of <code>Future</code> and <code>InfiniteChannel</code>.</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/Executor.md"><code>Executor</code></a> is object made to execute escaped block <code>(Void) -&gt; Void</code>. Its propose is to encapsulate a way of an execution.</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/ExecutionContext.md"><code>ExecutionContext</code></a> is a protocol concurrency-aware objects must conform to. It basically make them actors or components of actor.</li>
+<li>   <a href="https://github.com/AsyncNinja/AsyncNinja/blob/master/Docs/Fallible.md"><code>Fallible</code></a> is validation monad. Is an object that represents either success value of failure value (Error).</li>
 </ul>
 
 <p>Supports: iOS, macOS, watchOS, tvOS and <strong>Linux</strong>.</p>
